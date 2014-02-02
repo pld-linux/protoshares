@@ -2,7 +2,7 @@
 Summary:	ProtoShares
 Name:		protoshares
 Version:	0.8.5
-Release:	1.%{snap}.1
+Release:	1.%{snap}.2
 License:	MIT/X11
 Group:		X11/Applications
 Source0:	ProtoShares-%{snap}.tar.bz2
