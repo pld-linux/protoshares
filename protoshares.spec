@@ -1,8 +1,9 @@
 %define	snap	20131203
+%define	rel	3
 Summary:	ProtoShares
 Name:		protoshares
 Version:	0.8.5
-Release:	1.%{snap}.2
+Release:	1.%{snap}.%{rel}
 License:	MIT/X11
 Group:		X11/Applications
 Source0:	ProtoShares-%{snap}.tar.bz2
