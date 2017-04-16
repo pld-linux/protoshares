@@ -1,5 +1,5 @@
 %define	snap	20131203
-%define	rel	9
+%define	rel	10
 Summary:	ProtoShares
 Name:		protoshares
 Version:	0.8.5
@@ -9,6 +9,7 @@ Group:		X11/Applications
 Source0:	ProtoShares-%{snap}.tar.bz2
 # Source0-md5:	f18b07195152c72a1e322444d84b4543
 Patch0:		boost-1.58.patch
+Patch1:		miniupnpc-2.0.patch
 URL:		http://invictus-innovations.com/protoshares
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
@@ -35,6 +36,7 @@ Qt-based ProtoShares Wallet.
 %prep
 %setup -q -n ProtoShares
 %patch0 -p1
+%patch1 -p1
 
 %build
 qmake-qt4 protoshares-qt.pro \
