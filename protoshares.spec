@@ -1,5 +1,5 @@
 %define	snap	20131203
-%define	rel	10
+%define	rel	11
 Summary:	ProtoShares
 Name:		protoshares
 Version:	0.8.5
