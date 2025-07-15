@@ -35,8 +35,8 @@ Qt-based ProtoShares Wallet.
 
 %prep
 %setup -q -n ProtoShares
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 qmake-qt4 protoshares-qt.pro \
